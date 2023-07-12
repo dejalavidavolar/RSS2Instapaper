@@ -22,7 +22,7 @@ logging.basicConfig(format="%(asctime)s [%(levelname)s] %(message)s",
 
 def add_article(url, tags=[]):
     global USERNAME
-    global ACCESS_TOKEN
+    global PASSWORD
     instapaper_url = 'https://www.instapaper.com/api/add'
     data = {
         'username': USERNAME,

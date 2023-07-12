@@ -3,14 +3,10 @@
 #     url: feed url
 #   Optional:
 #     name: feed name (not used in program)
-#     tags: tags applied in Pocket (need to be list)
-#     filter: only add the article title pass the filter (not implement)
 #
 # Example:
 # - url: https://example.com
 #   name: Example Website
-#   tags: [tag1, tag2]
-#   filter: "Test"
 
 # Test for wrong url
 # - url: https://example.com

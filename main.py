@@ -30,11 +30,7 @@ def add_article(url, tags=[]):
         'url': url,
     }
     ret = requests.post(instapaper_url, data=data)
-    ret = json.loads(ret.text)
-    if ret.get('status', None) is None:
-        logging.error("%s: %s", ret['error'], ret['message'])
-        exit()
-    return ret['status']
+    return ret.status_code == 201
 
 
 def get_last_time_rss_data(rss_url):

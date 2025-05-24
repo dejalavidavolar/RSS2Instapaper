@@ -2,7 +2,7 @@
 <h3 align="center">RSS2Instapaper</h3>
 
 <p align="center">
-An awesome tool to save articles from RSS feed to Pocket automatically.
+An awesome tool to save articles from RSS feed to Instapaper automatically.
 </p>
 
 <p align="center">

@@ -46,13 +46,6 @@ class RSS:
             "url": url,
         }
         ret = requests.post(self.url, data=data)
-        if ret.text == "":
-            logging.error("Pocket return empty string")
-            return False
-        ret = json.loads(ret.text)
-        if ret.get("status", None) is None:
-            logging.error("%s: %s", ret.get("error", ""), ret.get("message", ""))
-            return False
         return ret.status_code == 201
         # return ret["status"]
 

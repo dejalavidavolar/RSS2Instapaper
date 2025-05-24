@@ -23,12 +23,12 @@ class RSS:
     def __init__(self, rss_config_path="rss.yaml", rss_database_path="rss_database.zip", request_timeout=10.0):
         self.USERNAME = os.environ.get("USERNAME", None)
         self.PASSWORD = os.environ.get("PASSWORD", None)
-        self.url = "https://www.instapaper.com/api/add"
+        self.URL = "https://www.instapaper.com/api/add"
 
-        self.rss_config_path = rss_config_path
-        self.rss_database_path = rss_database_path
         self.NOW = datetime.now()
         self.REQUEST_TIMEOUT = request_timeout
+        self.rss_config_path = rss_config_path
+        self.rss_database_path = rss_database_path
         self.rss_configs = None
         self.rss_database = pd.DataFrame(
             columns=[
@@ -45,9 +45,8 @@ class RSS:
             "password": self.PASSWORD,
             "url": url,
         }
-        ret = requests.post(self.url, data=data)
+        ret = requests.post(self.URL, data=data)
         return ret.status_code == 201
-        # return ret["status"]
 
     def openRSSConfig(self):
         if os.path.exists(self.rss_config_path):

@@ -21,7 +21,15 @@
 # - url: https://feeds.feedburner.com/playpc
 #   name: 電腦玩物
 #   tags: [blog]
-- url: https://www.latercera.com/rss
-  name: La Tercera
 - url: https://rss.cri.cl/dw/rss/rss-sp-all?key=FrenchFries.2427/
   name: DW Internacional
+- url: https://interferencia.cl/rss.xml
+  name: Interferencia
+- url: https://www.cooperativa.cl/noticias/site/tax/port/all/rss_3_156__1.xml
+  name: Cooperativa
+- url: https://www.cooperativa.cl/noticias/site/tax/port/all/rss_1___1.xml
+  name: Cooperativa
+- url: https://www.lemondediplomatique.cl/rss/
+  name: Le Monde Diplomatique
+- url: https://radio.uchile.cl/noticias/feed/
+  name: Radio UChile

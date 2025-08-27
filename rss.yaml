@@ -23,3 +23,5 @@
 #   tags: [blog]
 - url: https://www.latercera.com/rss
   name: La Tercera
+- url: https://rss.cri.cl/dw/rss/rss-sp-all?key=FrenchFries.2427/
+  name: DW Internacional

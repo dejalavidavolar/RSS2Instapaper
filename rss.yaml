@@ -1,29 +1,17 @@
-# Attributes:
-#   Required:
-#     url: feed URL
-#   Optional:
-#     name: feed name (not used in the program)
-#     tags: tags applied in Pocket (need to be a list)
-#     filter: only add the article title pass the filter (not implement)
-#
-# Example:
-# - url: https://example.com
-#   name: Example Website
-#   tags: [tag1, tag2]
-#   filter: "Test"
-
-# Test for the wrong URL
-# - url: https://example.com
-# - url: https://a.c
-# - url: apple
-
-# Blog
-# - url: https://feeds.feedburner.com/playpc
-#   name: 電腦玩物
-#   tags: [blog]
-- url: https://rss.cri.cl/dw/rss/rss-sp-all?key=FrenchFries.2427/
-  name: DW Internacional
+# No problem if you want to use my RSSHUB instance
+- url: https://rss.cri.cl/dw/news/es/s-7577?key=FrenchFries.2427/
+  name: DW Ciencia
+- url: https://rss.cri.cl/dw/news/es/s-42464457?key=FrenchFries.2427/
+  name: DW Latinoamérica
+- url: https://rss.cri.cl/dw/news/es/s-12340?key=FrenchFries.2427/
+  name: DW Historia
 - url: https://www.lemondediplomatique.cl/rss/
   name: Le Monde Diplomatique
 - url: https://radio.uchile.cl/noticias/feed/
   name: Radio UChile
+- url: www.abc.es/rss/2.0/internacional/
+  name: ABC Internacional
+- url: https://www.elciudadano.com/feed/
+  name: El Ciudadano
+- url: https://www.cnnchile.com/rss.xml
+  name: CNN Chile

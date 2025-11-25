@@ -1,18 +1,10 @@
 - url: https://www.latercera.com/arc/outboundfeeds/rss/?outputType=xml
-  tags: [noticias]
 - url: https://rss.cri.cl/wired/tag/culture?key=FrenchFries.2427/
-  tags: [cultura]
 - url: https://rss.cri.cl/wired/tag/science?key=FrenchFries.2427/
-  tags: [ciencia]
 - url: https://radio.uchile.cl/noticias/feed/
-  tags: [noticias]
 - url: https://rss.cri.cl/dw/news/es/s-12340?key=FrenchFries.2427/
-  tags: [cultura]
 - url: https://rss.cri.cl/dw/news/es/s-42464457?key=FrenchFries.2427/
-  tags: [noticias]
 - url: https://rss.cri.cl/dw/news/es/s-7577?key=FrenchFries.2427/
-  tags: [ciencia]
 - url: https://ciperchile.cl/feed
-  tags: [noticias]
 
 # If you want, you can use my rsshub instance / Si quieres, puedes usar mi instancia rsshub
